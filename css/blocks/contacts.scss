@@ -1,0 +1,45 @@
+.contacts {
+  margin-bottom: 86px;
+}
+
+.contacts__title {
+  font-family: $font-bold, sans-serif;
+  color: $black;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contacts__subtitle {
+  color: $black;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contacts__btn-black {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.contacts__btn {
+  font-family: $font-bold, sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  border: 1px solid white;
+
+  text-align: center;
+  padding: 13px 30px;
+  border-radius: 25px;
+  background-color: black;
+  &:hover {
+    background-color: white;
+    color: $black;
+    border: 1px solid black;
+  }
+}

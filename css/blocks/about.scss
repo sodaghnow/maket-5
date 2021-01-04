@@ -1,0 +1,40 @@
+.about {
+  background-color: #f6f6f6;
+  padding-bottom: 107px;
+}
+
+.about__title,
+.about__subtitle {
+  width: 100%;
+  text-align: center;
+}
+
+.about__title {
+  padding-top: 120px;
+  margin-bottom: 18px;
+  font-family: $font-bold, sans-serif;
+  color: $black;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.about__subtitle {
+  color: $black;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 50px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .about {
+    padding-bottom: 60px;
+  }
+
+  .about__title {
+    padding-top: 60px;
+  }
+}

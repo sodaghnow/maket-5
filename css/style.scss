@@ -1,0 +1,41 @@
+@import "blocks/reset";
+@import "blocks/variables";
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/about";
+@import "blocks/skills";
+@import "blocks/portfolio";
+@import "blocks/contacts";
+@import "blocks/footer";
+
+@font-face {
+  font-family: "Gilroy Medium";
+  src: url(../fonts/Gilroy-Medium.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url(../fonts/Gilroy-Bold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gilroy Medium";
+  font-weight: normal;
+  font-style: normal;
+
+  box-sizing: border-box;
+}
+
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
